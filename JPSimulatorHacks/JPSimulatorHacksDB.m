@@ -25,7 +25,7 @@
 //
 
 #import "JPSimulatorHacksDB.h"
-@import sqlite3;
+#import <sqlite3/sqlite3.h>
 
 @interface JPSimulatorHacksDB () {
     NSString *_databasePath;
